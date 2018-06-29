@@ -10,7 +10,7 @@ public static void main (String s[]){
 	System.out.println("num");
 	n=sc.nextInt();
 	for(int j=2;j<n;j++){
-	if(n%j==1){
+	if(n%j==0){
 		i=1;
 	break;
 	}}
