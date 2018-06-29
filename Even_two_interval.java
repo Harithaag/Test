@@ -11,7 +11,7 @@ public class Even_two_interval {
 			
 				
 			
-			if(i!=1&&i%2==0)
+			if(i!=a&&i%2==0)
 				System.out.println(i);
 		}
 	}
