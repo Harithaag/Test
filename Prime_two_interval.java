@@ -13,11 +13,11 @@ public class Prime_two_interval {
 		for(int k=a;k<b;k++){
 			i=0;
 		for(int j=2;j<k;j++){
-		if(k%j==0){
+		if(k!=a&&k%j==0){
 			i=1;
 		break;
 		}}
-		if(i==0)
+		if(k!=a&&i==0)
 			System.out.println(k);
 		}
 
