@@ -13,10 +13,10 @@ public class Amstrong {
 			su+=r*r*r;
 		}
 		if(n==su){
-			System.out.println("A");
+			System.out.println("Yes");
 		}
 			else{
-				System.out.println("nA");
+				System.out.println("No");
 		}
 	}
 
