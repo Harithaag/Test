@@ -17,10 +17,14 @@ public class Mergesort {
         int i = l, j = m;
         for (int k = 0; k < n; k++) 
         {
-            if (i == m)  
-                temp[k] = a[j++];
-            else if (j == h) 
-                temp[k] = a[i++];
+            if (i == m)  {
+                temp[k] = a[j];
+		    j++;
+	    }
+            else if (j == h) {
+                temp[k] = a[i];
+		    i++;
+	    }
             else if (a[j]<a[i]) 
                 temp[k] = a[j++];
             else 
